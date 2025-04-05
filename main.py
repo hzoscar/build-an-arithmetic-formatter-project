@@ -4,8 +4,6 @@ def do_operation(first_value,operator,second_value):
     else:
         return str(int(first_value) - int(second_value))
 
-problems = ["32 + 698", "3801 - 2", "45 + 43", "123 + 49","99 + 1"]
-
 def arithmetic_arranger(problems, show_answers=False):
     output_first_line_list = []
     output_second_line_list = []
